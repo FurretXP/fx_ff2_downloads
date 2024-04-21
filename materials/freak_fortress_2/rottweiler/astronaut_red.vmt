@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"freak_fortress_2/rottweiler/combine_debris001a"
+
+	"$yellow" "0"
+	"$one" "1"
+	"Proxies"
+	{
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

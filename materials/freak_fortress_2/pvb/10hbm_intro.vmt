@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "freak_fortress_2/pvb/10hbm_intro"
+
+	$ignorez 1
+	$no_fullbright 1
+}

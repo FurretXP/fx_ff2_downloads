@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "simf_r/hachiroku/warn_lights"
+	"$translucent" 1
+}

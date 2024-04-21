@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"freak_fortress_2\cavejohnsonv2\Johnson_Eyes_Diff"			  // Iris color in RGB with cornea noise in A
+
+}

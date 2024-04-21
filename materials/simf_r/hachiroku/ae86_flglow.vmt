@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "simf_r/hachiroku/ae86_flglow"
+	$selfillum 1
+}

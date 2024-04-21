@@ -1,0 +1,20 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+
+	$basetexture			models/salad/deadrising/chef/chefshoes
+	$bumpmap			models/salad/deadrising/chef/chefshoes_n
+	
+	$phong 				1
+	$phongboost			0.9
+	$phongexponent			5
+	$phongtint			"[0.88 0.88 1]"
+	$phongfresnelranges		"[0.3 0.8 10]"
+
+	$ambientocclusion		1
+	$halflambert			0
+
+	}
+}

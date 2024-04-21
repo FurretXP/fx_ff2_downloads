@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"freak_fortress_2\cavejohnsonv2\Johnson_Head_Diff2"
+	"$bumpmap"		"freak_fortress_2\cavejohnsonv2\Johnson_Head_Normal"
+	"$detail" 		"freak_fortress_2\cavejohnsonv2\Detail_Skin"
+	"$lightwarptexture" 	"freak_fortress_2\cavejohnsonv2\Johnson_Skin_WRP"			
+
+	"$phong" "1"
+//	"$phongalbedotint" "1"
+//	"$phongexponenttexture" 	"freak_fortress_2\cavejohnsonv2\Johnson_Head_Exp"
+	"$phongexponent" "3"
+	"$phongboost"	"0.50"
+	"$phongfresnelranges"	"[1 2 10]"
+	"$halflambert" "1"
+
+
+	//$rimlight 1
+
+	"$nocull" "1"
+
+	"$detailscale" 5
+	"$detailblendfactor" 0.5
+	"$detailblendmode" 0
+}

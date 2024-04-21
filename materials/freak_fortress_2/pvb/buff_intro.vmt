@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "freak_fortress_2/pvb/buff_intro"
+
+	$ignorez 1
+	$no_fullbright 1
+}
