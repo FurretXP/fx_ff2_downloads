@@ -1,0 +1,25 @@
+
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 60 60 rotate 0 translate 0 0"
+	"$basetexture" "models/notakid/crazytaxi/chrome"
+
+	$nocull "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[0.2 0.2 0.2]" 
+	"$phongexponent" 0
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$halflambert" 1
+	"$lightwarptexture" "models/notakid/crazytaxi/lightfix"
+	"$colorfix" "{250 250 250}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -1,0 +1,24 @@
+
+"VertexlitGeneric"
+{
+	"$basetexture" "models/notakid/crazytaxi/glass"	
+	
+	"$translucent" 1
+	$nocull 1
+	"$phong" 1
+	"$phongboost" ".5"
+	"$phongexponent" 2
+	"$phongfresnelranges" "[0.10 0.6 1.5]"
+
+	"$envmapfresnel" "1"
+	"$colorfix" "{800 800 800}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

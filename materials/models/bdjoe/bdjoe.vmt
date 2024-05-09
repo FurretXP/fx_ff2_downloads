@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/bdjoe/bdjoe"
+	"$bumpmap" "models/bdjoe/bdjoe_n"
+}
