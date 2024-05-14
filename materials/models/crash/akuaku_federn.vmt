@@ -1,0 +1,7 @@
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/crash/akuaku_federn"
+	"$surfaceprop" "wood"
+	"$model" 1
+}
