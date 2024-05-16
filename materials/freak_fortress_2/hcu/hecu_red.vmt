@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "freak_fortress_2/hcu/hecu_red"
+	"$nolod" 1
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+}
