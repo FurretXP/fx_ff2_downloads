@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "freak_fortress_2/squee_bvb/spy_hands_blue"
+	"$bumpmap" "models/player/spy/spy_hands_normal"
+		
+	"$phong" "1"
+	//"$phongexponenttexture" "models/player/spy/spy_hands_exponent"
+	"$phongexponent" "50"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models\weapons\c_items/c_ambassador_lightwarp"
+	"$phongfresnelranges"	"[8 8 100]"
+	"$halflambert" "1"
+	"$selfillum" 1
+	"$additive" 1
+	"$phongtint"  "[0 1 .1]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "10"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2.5"										// Boost for ambient cube component of rim lighting
+
+	"360?$color2" "[ 0.65 0.65 0.7 ]"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+	}
+}

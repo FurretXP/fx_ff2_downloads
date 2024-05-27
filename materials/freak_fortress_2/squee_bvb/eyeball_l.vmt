@@ -1,0 +1,15 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"freak_fortress_2/squee_bvb/eyeball_invun"
+	"$surfaceprop"	"flesh"
+	"$model"		1
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models\weapons\c_items/c_ambassador_lightwarp"
+	"$phongfresnelranges"	"[8 8 100]"
+	"$halflambert" "1"
+	"$selfillum" 1
+	"$additive" 1
+	"$phongtint"  "[0 1 .1]"
+}
